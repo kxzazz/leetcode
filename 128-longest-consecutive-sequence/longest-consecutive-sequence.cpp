@@ -16,9 +16,8 @@ public:
             if(seq > maxSeq) maxSeq = seq;
             seq = 1;
         }            
-        if(seq > maxSeq) maxSeq = seq;
 
-        return maxSeq;
+        return max(seq,maxSeq);
 
     }
 };
